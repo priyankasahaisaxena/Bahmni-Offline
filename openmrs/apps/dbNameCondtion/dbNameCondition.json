@@ -1,0 +1,1 @@
+{"dbNameCondition.js": "Bahmni.Common.Offline.dbNameCondition.get = function (provider, loginLocation) {     if(provider === 'superman')  return provider;if(loginLocation === 'Registration Desk' || loginLocation === 'Ganiyari') return 'location1_2';return loginLocation;};"}
